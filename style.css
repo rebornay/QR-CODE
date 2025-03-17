@@ -90,10 +90,12 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 15px;
     padding: 8px 2px;
     color: #68778D;
   }
+
+/* Media query */
 
 @media (max-width: 768px)  {
     body {
