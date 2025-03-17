@@ -17,8 +17,8 @@
     -webkit-font-smoothing: antialiased;
     background-color: #D5E1EF;
     margin: 0 auto;
-    width: 30%;
-    margin-top:30px;
+    width: 25%;
+    margin-top:50px;
   }
   
   /* 5. Improve media defaults */
@@ -55,22 +55,48 @@
   .white-container {
     background-color: #ffffff;
     /* height: ; */
-    padding: 10px;
-    border-radius: 8px;
-  }
+    padding: 14px;
+    border-radius: 20px;
+    box-shadow: 1px 20px 70px -16px rgba(1, 105, 134, 0.322);
+    -webkit-box-shadow: 1px 20px 70px -16px rgba(1, 105, 134, 0.322);
+    -moz-box-shadow: 1px 20px 70px -16px rgba(1, 105, 134, 0.322);
+  } 
 
   .image {
    object-fit: cover;
-   border: 1px solid red;
+   /* border: 1px solid red; */
    margin: 0 auto;
-   width: 40%;
-   height: 20rem;
+   /* width: %; */
+   /* height: 20rem; */
+   /* margin-top: 10px; */
+   margin-bottom: 10px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 
   .paragraph {
     text-align: center;
+    margin-bottom: 12px;
   }
 
   h1 {
-    /* font-size: 1rem; */
+    font-size: 25px;
+    line-height: 1.2;
+    padding: 10px 0;
+    color: #131E34;
   }
+
+  p {
+    font-size: 16px;
+    padding: 8px 2px;
+    color: #68778D;
+  }
+
+@media (max-width: 768px)  {
+    body {
+        width: 75%;
+    }
+}
