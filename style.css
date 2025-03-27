@@ -106,6 +106,6 @@
 
 @media (max-width: 768px)  {
     body {
-        width: 75%;
+        /* width: 75%; */
     }
 }
